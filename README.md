@@ -15,7 +15,7 @@ This repository is for EleutherAI's project *Pythia* which combines interpretabi
 
 ## Models
 
-| Params              | n_layers | d_model | n_heads | d_head | Batch Size | Learning Rate | Checkpoints                                                | Evaluations     |
+| Params              | #layers | Model Width | #heads | Head Size | Batch Size | Learning Rate | Checkpoints                                                | Evaluations     |
 | ------------------- | -------- | ------- | ------- | ------ | ---------- | ------------- | ---------------------------------------------------------- | --------------- |
 | Pythia-70M          | 6        | 512     | 8       | 64     | 2M         | 1e-3          | [Here](https://huggingface.co/EleutherAI/pythia-70m)          | Ready           |
 | Pythia-70M-Deduped  | 6        | 512     | 8       | 64     | 2M         | 1e-3          | [Here](https://huggingface.co/EleutherAI/pythia-70m-deduped)  | Ready           |
